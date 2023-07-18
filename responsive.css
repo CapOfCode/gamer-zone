@@ -1,0 +1,20 @@
+@media screen and (max-width: 768px) {
+    #nav-section {
+        box-shadow: none;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        padding: 80px 0;
+
+    }
+
+    .menu-container {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {}

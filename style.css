@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* Universal Design */
+:root {
+    --color-main: #0B0223;
+    --color-grey: #534C64;
+    --linear-start: #FF42A5;
+    --linear-end: #D142FF;
+    --font-bold: 700;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --text-size-title: 40px;
+    --text-size-sub-title: 18px;
+    --text-size-button: 20px;
+    --border-radius-main: 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 0 8%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    padding: 5% 0;
+}
+
+.gradient-top {
+    background: linear-gradient(to bottom, #FF42A5, #D142FF);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.gradient-right {
+    background-color: linear-gradient(to right, var(--linear-start), var(--linear-end));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* Header Navbar Section */
+#nav-section {
+    box-shadow: 1px 10px 6px -7px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+
+
+.menu-container,
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.logo-container span {
+    color: #FF42A5;
+}
+
+.logo-container img {
+    width: 60px;
+    object-fit: cover;
+}
+
+.logo-container a {
+    color: #0B0223;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.menu-container a {
+    color: var(--color-grey);
+    font-size: var(--text-size-sub-title);
+    font-weight: var(--font-medium);
+}
+
+.menu-container {
+    gap: 30px;
+}
+
+.nav-social {
+    display: flex;
+    background-color: hsl(200, 100%, 6%, 0.1);
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: var(--border-radius-main);
+}
+
+.fa-brands {
+    font-size: var(--text-size-button);
+    color: #00acee;
+}
+
+.fa-youtube {
+    color: red;
+}
