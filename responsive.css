@@ -30,6 +30,28 @@
         height: 75%;
     }
 
+    /* Gammer Section Responsive */
+    .gamer-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .gamer-text-container {
+        text-align: center;
+        width: 100%;
+    }
+
+    .quote h1 {
+        font-size: 2rem;
+
+    }
+
 }
 
 
