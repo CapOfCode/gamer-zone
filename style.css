@@ -160,7 +160,7 @@ nav {
 }
 
 .banner-sub-title {
-    font-size: 3.5rem;
+    font-size: 3.9rem;
     font-weight: var(--font-semi-bold);
 
 }
@@ -258,14 +258,14 @@ nav {
     text-align: center;
 }
 
-.online-videos h1 {
+.title {
     font-size: var(--text-size-title);
     color: var(--color-main);
     font-weight: var(--font-bold);
     margin: 1rem 0;
 }
 
-.online-videos p {
+.sub-title {
     font-size: var(--text-size-sub-title);
     color: var(--color-grey);
     font-weight: var(--font-regular);
@@ -476,7 +476,7 @@ footer ul a {
 
 .footer-privacy {
     margin: 3rem auto;
-    width: 50%;
+    width: 55%;
 }
 
 .footer-privacy ul {
