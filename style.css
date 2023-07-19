@@ -10,10 +10,10 @@
     --font-regular: 400;
     --font-medium: 500;
     --font-semi-bold: 600;
-    --text-size-title: 40px;
-    --text-size-sub-title: 18px;
-    --text-size-button: 20px;
-    --border-radius-main: 8px;
+    --text-size-title: 4rem;
+    --text-size-sub-title: 1.6rem;
+    --text-size-button: 1.4rem;
+    --border-radius-main: 0.8rem;
 }
 
 * {
@@ -21,26 +21,46 @@
     padding: 0;
 }
 
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.8rem;
+}
+
 section {
     padding: 0 8%;
-    font-family: 'Work Sans', sans-serif;
 }
 
 .container {
     padding: 5% 0;
 }
 
+
+.btn {
+    font-size: var(--text-size-button);
+    font-weight: var(--font-semi-bold);
+    padding: 1.4rem 2.5rem;
+    border: none;
+    background-color: #4EC5F7;
+    color: #ffffff;
+    border-radius: 2.5rem;
+}
+
+.btn-primary {
+    background-image: linear-gradient(to right, var(--linear-start), var(--linear-end), var(--linear-end));
+}
+
 .gradient-top {
-    background: linear-gradient(to bottom, #FF42A5, #D142FF);
+    background-image: linear-gradient(to bottom, var(--linear-start), var(--linear-start), var(--linear-end), var(--linear-end));
     -webkit-background-clip: text;
     color: transparent;
 }
 
-.gradient-right {
-    background-color: linear-gradient(to right, var(--linear-start), var(--linear-end));
-    -webkit-background-clip: text;
-    color: transparent;
-}
 
 li {
     list-style: none;
@@ -54,14 +74,14 @@ a {
 
 /* Header Navbar Section */
 #nav-section {
-    box-shadow: 1px 10px 6px -7px rgba(0, 0, 0, 0.2);
+    box-shadow: 0.1rem 1rem 0.6rem -0.7rem rgba(0, 0, 0, 0.2);
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 1rem 0;
 }
 
 
@@ -70,8 +90,8 @@ nav {
 .logo-container {
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 10px;
+    gap: 1rem;
+    padding: 1rem 0;
 }
 
 .logo-container span {
@@ -79,13 +99,13 @@ nav {
 }
 
 .logo-container img {
-    width: 60px;
+    width: 6rem;
     object-fit: cover;
 }
 
 .logo-container a {
     color: #0B0223;
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 600;
 }
 
@@ -96,16 +116,16 @@ nav {
 }
 
 .menu-container {
-    gap: 30px;
+    gap: 3rem;
 }
 
 .nav-social {
     display: flex;
     background-color: hsl(200, 100%, 6%, 0.1);
     align-items: center;
-    gap: 10px;
-    padding: 10px 15px;
-    margin-left: 10px;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    margin-left: 1rem;
     border-radius: var(--border-radius-main);
 }
 
@@ -116,4 +136,52 @@ nav {
 
 .fa-youtube {
     color: red;
+}
+
+/* Header Banner Section */
+.header-banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 !important;
+}
+
+.banner-sub-title {
+    font-size: 4rem;
+    font-weight: var(--font-semi-bold);
+
+}
+
+.banner-titile {
+    font-size: 7rem;
+    transform: translateX(-0.4rem);
+
+}
+
+.header-banner-container li {
+    color: var(--color-grey);
+    font-size: var(--text-size-button);
+    font-weight: var(--font-medium);
+    margin: 1rem 0;
+}
+
+.banner-icon {
+    margin-right: 1rem;
+    font-size: var(--text-size-button);
+}
+
+.banner-cta {
+    display: flex;
+    margin-top: 2.5rem;
+    gap: 2rem;
+}
+
+.banner-image-container {
+    width: 50%;
+    height: 90%;
+}
+
+.banner-image-container img {
+    width: 100%;
+    height: 90%;
 }
