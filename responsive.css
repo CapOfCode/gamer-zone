@@ -50,10 +50,15 @@
         width: 100%;
     }
 
+    .quote {
+        margin-top: 5rem;
+    }
+
     .quote h1 {
         font-size: 2rem;
 
     }
+
 
     /* Online Games Funny Videos Section Design */
     .videos-container {
@@ -158,10 +163,7 @@
         height: 75%;
     }
 
-    /* We are Gamers Section */
-    .quote {
-        margin-top: 5rem;
-    }
+
 
     /* Online Games Funny Videos Section Design */
     .title {
