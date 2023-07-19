@@ -3,6 +3,7 @@
         font-size: 52.5%;
     }
 
+
     /* Nav Section Responsive */
     #nav-section {
         box-shadow: none;
@@ -76,10 +77,16 @@
         font-size: 3rem;
     }
 
+
+
+    .catagory-card img {
+        width: 35px;
+    }
 }
 
 
 @media screen and (max-width: 576px) {
+
 
 
     /* Banner Section Responsive */
@@ -160,6 +167,27 @@
         z-index: 2;
         width: 20%;
 
+    }
+
+    /* Games Catagory Section */
+
+    .catagory-container {
+
+        gap: 0.3rem 1rem;
+    }
+
+    .catagory-card {
+        gap: 0.5rem;
+        border: 0.1rem solid var(--linear-start);
+        border-radius: 3rem;
+        padding: 0.3rem;
+        font-size: 0.9rem;
+        justify-content: flex-start;
+        width: 28%;
+    }
+
+    .catagory-card img {
+        width: 20px;
     }
 
 }
