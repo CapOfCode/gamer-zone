@@ -70,6 +70,12 @@
         margin: 1rem;
 
     }
+
+    /* Play Games Online Section */
+    .play-online-title {
+        font-size: 3rem;
+    }
+
 }
 
 
@@ -109,16 +115,51 @@
     }
 
     /* Online Games Funny Videos Section Design */
-    .online-videos h1 {
+    .title {
         font-size: 3rem;
         color: var(--color-main);
         font-weight: var(--font-bold);
     }
 
-    .online-videos p {
+    .sub-title {
         font-size: 1.4rem;
         color: var(--color-grey);
         font-weight: var(--font-regular);
+    }
+
+    /* Play Games Online Section */
+
+    .play-games-container {
+        flex-direction: column-reverse;
+    }
+
+    .play-image-container {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .play-text-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-online-title {
+        font-size: 3.8rem;
+        margin-bottom: 2rem;
+
+    }
+
+
+    .sub-play-image {
+        position: absolute;
+        left: 80%;
+        bottom: -48%;
+        z-index: 2;
+        width: 20%;
+
     }
 
 }
