@@ -374,5 +374,82 @@ nav {
 
 
 .catagory-card img {
-    width: 45px;
+    width: 4.5rem;
+}
+
+
+/* Footer Section Design Here */
+footer {
+    background-color: var(--color-main);
+    padding: 7% 0;
+    text-align: center;
+}
+
+
+.footer-logo-container span {
+    color: #FF42A5;
+}
+
+.footer-logo-container img {
+    width: 7rem;
+    object-fit: cover;
+}
+
+.footer-logo-container a {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+footer ul a {
+    color: #FFF;
+    font-size: var(--text-size-sub-title);
+    font-weight: var(--font-semi-bold);
+}
+
+.footer-nav {
+    margin: 3rem auto;
+    width: 60%;
+}
+
+.footer-nav ul {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.footer-social {
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 35%;
+}
+
+.footer-icon {
+    color: #FFFFFF;
+    font-size: 3.5rem;
+    margin: 1rem 0;
+}
+
+
+.footer-privacy {
+    margin: 3rem auto;
+    width: 70%;
+}
+
+.footer-privacy ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-privacy a {
+    color: hsl(0, 0%, 100%, 0.6);
+    font-weight: var(--font-medium);
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 1.4rem;
+    color: hsl(0, 0%, 100%, 0.6)
 }

@@ -82,6 +82,36 @@
     .catagory-card img {
         width: 35px;
     }
+
+    /* Footer Section Design */
+    footer {
+        padding: 8rem 0;
+    }
+
+    .footer-nav ul {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem 0;
+        text-align: center;
+    }
+
+    .footer-social {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem 0;
+        margin: 6rem auto;
+        text-align: center;
+    }
+
+    .footer-privacy {
+        text-align: center;
+        margin: 5rem auto;
+    }
+
+    .footer-privacy ul {
+        text-align: center;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem 0;
+    }
+
 }
 
 
@@ -178,7 +208,6 @@
 
     .catagory-card {
         gap: 0.5rem;
-        border: 0.1rem solid var(--linear-start);
         border-radius: 3rem;
         padding: 0.3rem;
         font-size: 0.9rem;
