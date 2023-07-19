@@ -239,3 +239,45 @@ nav {
     font-weight: var(--font-bold);
     color: var(--color-grey)
 }
+
+/* Online Games Funny Videos Section Design */
+.online-videos {
+    text-align: center;
+}
+
+.online-videos h1 {
+    font-size: var(--text-size-title);
+    color: var(--color-main);
+    font-weight: var(--font-bold);
+    margin: 1rem 0;
+}
+
+.online-videos p {
+    font-size: var(--text-size-sub-title);
+    color: var(--color-grey);
+    font-weight: var(--font-regular);
+}
+
+.videos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 260px));
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 7rem 0;
+}
+
+.video-card {
+    width: 100%;
+    height: 100%;
+    margin: 2rem 0;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.title-text {
+    text-align: left;
+}

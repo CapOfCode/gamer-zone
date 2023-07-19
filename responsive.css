@@ -42,6 +42,7 @@
         width: 100%;
     }
 
+
     .gamer-text-container {
         text-align: center;
         width: 100%;
@@ -52,13 +53,28 @@
 
     }
 
+    /* Online Games Funny Videos Section Design */
+    .videos-container {
+        justify-content: center;
+        gap: 2rem 2rem;
+        align-items: center;
+    }
+
+    .video-card {
+        width: 100%;
+        height: 100%;
+    }
+
+    .title-text {
+        text-align: center;
+        margin: 1rem;
+
+    }
 }
 
 
 @media screen and (max-width: 576px) {
-    html {
-        font-size: 55.5%;
-    }
+
 
     /* Banner Section Responsive */
     .header-banner-container {
@@ -91,4 +107,18 @@
         width: 100%;
         height: 75%;
     }
+
+    /* Online Games Funny Videos Section Design */
+    .online-videos h1 {
+        font-size: 3rem;
+        color: var(--color-main);
+        font-weight: var(--font-bold);
+    }
+
+    .online-videos p {
+        font-size: 1.4rem;
+        color: var(--color-grey);
+        font-weight: var(--font-regular);
+    }
+
 }
